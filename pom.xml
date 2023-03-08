@@ -201,6 +201,25 @@
       </dependency>
     </dependencies>
 </dependencyManagement>
+         <distributionManagement>
+     <site>
+      <id>site-server</id>
+      <name>Test Project Site</name>
+      <url>file:///tmp/maven-project-site</url>
+       </site>   
+           <repository>
+  <id>nexus</id>
+  <name>AlacritiTech</name>
+  <url>http://localhost:8081/repository/Practice_Release/</url>
+  </repository>
+  
+  <snapshotRepository>
+  <id>nexus</id>
+  <name>AlacritiTech</name>
+  <url> http://localhost:8081/repository/Practice_Snapshot/</url>
+  </snapshotRepository>
+ 
+ </distributionManagement>
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
