@@ -27,29 +27,23 @@
   </modules>
 
   <distributionManagement>
-
-             
-       <site>
+ <site>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
-       </site>
-             
+       </site>             
   <repository>
   <id>nexus</id>
   <name>AlacritiTech</name>
   <url>http://localhost:8081/repository/Practice_Release/</url>
   </repository>
-  
   <snapshotRepository>
   <id>nexus</id>
   <name>AlacritiTech</name>
   <url> http://localhost:8081/repository/Practice_Snapshot/</url>
   </snapshotRepository>
-                   
-  </distributionManagement>
-
-  <build>
+ </distributionManagement>
+ <build>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
