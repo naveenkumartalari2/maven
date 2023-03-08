@@ -168,7 +168,6 @@
     </pluginManagement>
   </build>
 
-  <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>javax.servlet</groupId>
@@ -210,8 +209,9 @@
         <scope>test</scope>
       </dependency>
     </dependencies>
-  </dependencyManagement>
+  
           <distributionManagement>
+                   
   <repository>
   <id>nexus</id>
   <name>AlacritiTech</name>
