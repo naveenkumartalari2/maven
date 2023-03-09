@@ -20,7 +20,7 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     <sonar.url>http://localhost:9000</sonar.url>
-    <sonar.login>sqp_e16120119ce998f80c0604b29f702b98eb5fca81</sonar.login>
+    <sonar.login>313abde39461d3bfc84a2714722c4430020f25c4</sonar.login>
   </properties>
 
   <modules>
@@ -212,13 +212,13 @@
            <repository>
   <id>nexus</id>
   <name>AlacritiTech</name>
-  <url>http://localhost:8081/repository/Practice_Release/</url>
+  <url>http://localhost:8081/repository/rajesh_release/</url>
   </repository>
   
   <snapshotRepository>
   <id>nexus</id>
   <name>AlacritiTech</name>
-  <url>http://localhost:8081/repository/Practice_Snapshot/</url>
+  <url>http://localhost:8081/repository/rajesh_snapshot/</url>
   </snapshotRepository>
  
  </distributionManagement>
