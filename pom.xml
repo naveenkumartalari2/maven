@@ -20,7 +20,7 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     <sonar.url>http://localhost:9000</sonar.url>
-    <sonar.login>5671897567911b296a17e63779d31994489ccb1d</sonar.login>
+    <sonar.login>sqp_e16120119ce998f80c0604b29f702b98eb5fca81</sonar.login>
   </properties>
 
   <modules>
